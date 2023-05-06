@@ -1,5 +1,5 @@
 {
-  "gtk-layer-shell": false,
+  // "gtk-layer-shell": false,
   "layer": "top",
   "modules-left": [
     "custom/launcher",
@@ -20,7 +20,7 @@
     "custom/power"
   ],
   "hyprland/window": {
-    "format": "{}",
+    "format": "~ {} ~",
     "separate-outputs": true
   },
   "pulseaudio": {

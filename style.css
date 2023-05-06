@@ -20,8 +20,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-  color: #fffefe;
-  background: #322c2e;
+  color: #ffffff;
+  background: #32342f;
 }
 #tags {
 	margin-top: 6px;
@@ -30,14 +30,14 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	min-width: 0;
-	background: #181516;
+	background: #191a18;
 	transition: none;
 }
 
 #tags button {
 	min-width: 50px;
 	transition: none;
-	color: #c5c4c4;
+	color: #c5c5c5;
 	background: transparent;
 	font-size: 16px;
 	border-radius: 2px;
@@ -45,28 +45,28 @@ window#waybar.hidden {
 
 #tags button.occupied {
 	transition: none;
-	color: #ff8724;
+	color: #ff9947;
 	background: transparent;
 	font-size: 4px;
 }
 
 #tags button.focused {
-	color: #8a528e;
-    border-top: 2px solid #8a528e;
-    border-bottom: 2px solid #8a528e;
+	color: #bc894e;
+    border-top: 2px solid #bc894e;
+    border-bottom: 2px solid #bc894e;
 }
 
 #tags button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #fffefe;
-    border-color: #fffefe;
-    color: #fffefe;
+	color: #ffffff;
+    border-color: #ffffff;
+    color: #ffffff;
 }
 
 #tags button.focused:hover {
-    color: #fffefe;
+    color: #ffffff;
 }
 
 #tags button.urgent {
@@ -81,34 +81,30 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	padding-right: 5px;
 	border-radius: 10px;
-	background: #3e3a65;
+	background: #8b7c6a;
 	transition: none;
 }
 
 #workspaces button {
 	transition: none;
-	color: #fffefe;
+	color: #ffffff;
 	background: transparent;
 	border-radius: 2px;
 }
 
 #workspaces button.active {
-	color: #8a528e;
-    border-top: 2px solid #8a528e;
-    border-bottom: 2px solid #8a528e;
+	color: #bc894e;
 }
 
 #workspaces button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #fffefe;
-    border-color: #fffefe;
-    color: #fffefe;
+	color: #ffffff;
 }
 
 #workspaces button.focused:hover {
-    color: #fffefe;
+    color: #ffffff;
 }
 
 #workspaces button.urgent {
@@ -132,8 +128,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #ff8724;
+	color: #ffffff;
+	background: #ff9947;
 }
 
 #pulseaudio {
@@ -144,8 +140,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #634865;
+	color: #ffffff;
+	background: #876947;
 }
 
 #battery {
@@ -201,8 +197,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #c56a28;
+	color: #ffffff;
+	background: #bb7844;
 	/*background: #1A1826;*/
 }
 
@@ -214,8 +210,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #ff8724;
+	color: #ffffff;
+	background: #ff9947;
 }
 #cpu {
 	margin-top: 6px;
@@ -225,8 +221,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #c56a28;
+	color: #ffffff;
+	background: #bb7844;
 }
 
 #tray {
@@ -237,8 +233,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #3e3a65;
+	color: #ffffff;
+	background: #8b7c6a;
 }
 
 #custom-launcher {
@@ -249,8 +245,8 @@ window#waybar.hidden {
 	padding-right: 5px;
 	border-radius: 10px;
 	transition: none;
-    color: #8a528e;
-    background: #322c2e;
+    color: #bc894e;
+    background: #32342f;
 }
 
 #custom-power {
@@ -264,8 +260,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #8a528e;
-	background: #322c2e;
+	color: #bc894e;
+	background: #32342f;
 }
 
 #custom-wallpaper {
@@ -300,8 +296,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #3e3a65;
+	color: #ffffff;
+	background: #8b7c6a;
 }
 #custom-mpc {
 	margin-top: 6px;
@@ -311,6 +307,6 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #634865;
+	color: #ffffff;
+	background: #876947;
 }
