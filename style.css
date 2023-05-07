@@ -20,8 +20,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-  color: #ffffff;
-  background: #32342f;
+  color: #fffefe;
+  background: #302e2e;
 }
 #tags {
 	margin-top: 6px;
@@ -30,14 +30,14 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	min-width: 0;
-	background: #191a18;
+	background: #171616;
 	transition: none;
 }
 
 #tags button {
 	min-width: 50px;
 	transition: none;
-	color: #c5c5c5;
+	color: #c5c4c4;
 	background: transparent;
 	font-size: 16px;
 	border-radius: 2px;
@@ -45,28 +45,28 @@ window#waybar.hidden {
 
 #tags button.occupied {
 	transition: none;
-	color: #ff9947;
+	color: #ff8c3b;
 	background: transparent;
 	font-size: 4px;
 }
 
 #tags button.focused {
-	color: #bc894e;
-    border-top: 2px solid #bc894e;
-    border-bottom: 2px solid #bc894e;
+	color: #b18179;
+    border-top: 2px solid #b18179;
+    border-bottom: 2px solid #b18179;
 }
 
 #tags button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #ffffff;
-    border-color: #ffffff;
-    color: #ffffff;
+	color: #fffefe;
+    border-color: #fffefe;
+    color: #fffefe;
 }
 
 #tags button.focused:hover {
-    color: #ffffff;
+    color: #fffefe;
 }
 
 #tags button.urgent {
@@ -81,30 +81,30 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	padding-right: 5px;
 	border-radius: 10px;
-	background: #8b7c6a;
+	background: #6b4331;
 	transition: none;
 }
 
 #workspaces button {
 	transition: none;
-	color: #ffffff;
+	color: #fffefe;
 	background: transparent;
 	border-radius: 2px;
 }
 
 #workspaces button.active {
-	color: #bc894e;
+	color: #b18179;
 }
 
 #workspaces button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #ffffff;
+	color: #fffefe;
 }
 
 #workspaces button.focused:hover {
-    color: #ffffff;
+    color: #fffefe;
 }
 
 #workspaces button.urgent {
@@ -128,8 +128,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #ffffff;
-	background: #ff9947;
+	color: #fffefe;
+	background: #ff8c3b;
 }
 
 #pulseaudio {
@@ -140,8 +140,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #ffffff;
-	background: #876947;
+	color: #fffefe;
+	background: #7d6c69;
 }
 
 #battery {
@@ -197,8 +197,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #ffffff;
-	background: #bb7844;
+	color: #fffefe;
+	background: #c56f3b;
 	/*background: #1A1826;*/
 }
 
@@ -210,8 +210,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #ffffff;
-	background: #ff9947;
+	color: #fffefe;
+	background: #ff8c3b;
 }
 #cpu {
 	margin-top: 6px;
@@ -221,8 +221,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #ffffff;
-	background: #bb7844;
+	color: #fffefe;
+	background: #c56f3b;
 }
 
 #tray {
@@ -233,8 +233,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #ffffff;
-	background: #8b7c6a;
+	color: #fffefe;
+	background: #6b4331;
 }
 
 #custom-launcher {
@@ -245,8 +245,8 @@ window#waybar.hidden {
 	padding-right: 5px;
 	border-radius: 10px;
 	transition: none;
-    color: #bc894e;
-    background: #32342f;
+    color: #b18179;
+    background: #302e2e;
 }
 
 #custom-power {
@@ -260,8 +260,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #bc894e;
-	background: #32342f;
+	color: #b18179;
+	background: #302e2e;
 }
 
 #custom-wallpaper {
@@ -296,8 +296,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #ffffff;
-	background: #8b7c6a;
+	color: #fffefe;
+	background: #6b4331;
 }
 #custom-mpc {
 	margin-top: 6px;
@@ -307,6 +307,6 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #ffffff;
-	background: #876947;
+	color: #fffefe;
+	background: #7d6c69;
 }

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+script=$(echo -e "Random Wallpaper\nPower" | rofi -dmenu -config ~/.config/rofi/modules/mid_box.rasi -location 3 -hover-select -me-select-entry '' -me-accept-entry MousePrimary -p "Power Menu")
+if [ "$script" == "Random Wallpaper" ]; then
+	randrice
+elif [ "$script" == "Power" ]; then
+	wlogout -p layer-shell
+fi

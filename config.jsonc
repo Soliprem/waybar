@@ -193,7 +193,7 @@
     "format": "襤",
     /* "on-click": "bash ~/.config/rofi/leave/leave.sh", */
     /* "on-click":"rofi-powermenu" */
-    "on-click": "wlogout -p layer-shell"
+    "on-click": "~/.config/waybar/modules/dm-waybar-power"
   },
   "custom/updates": {
     "format": "{} Update(s)",
@@ -211,7 +211,24 @@
     "on-click-right": "mpc toggle",
     "on-click-middle": "notify-status",
     "on-scroll-up": "mpc next",
-    "on-scroll-down": "mpc prev",
+    "on-scroll-down": "mpc prev"
+  },
+  "custom/music": {
+    "format": "{icon}{}",
+    "format-icons": {
+      // "Playing": " ", // Uncomment if not using the dynamic script
+      "Paused": " ",
+      "Stopped": "&#x202d;ﭥ " // This stop symbol is RTL. So &#x202d; is left-to-right override.
+    },
+    "escape": true,
+    "tooltip": true,
+    "exec": "~/.config/waybar/caway -b 10 -e",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl previous",
+    "on-scroll-down": "playerctl next",
+    "on-click-right": "g4music",
+    "max-length": 35
   }
   /*"custom/wallpaper":{
         "format":" ",
