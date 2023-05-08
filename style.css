@@ -20,8 +20,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-  color: #fffefe;
-  background: #302e2e;
+  color: #fdfdff;
+  background: #2a2c37;
 }
 #tags {
 	margin-top: 6px;
@@ -30,14 +30,14 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	min-width: 0;
-	background: #171616;
+	background: #15161b;
 	transition: none;
 }
 
 #tags button {
 	min-width: 50px;
 	transition: none;
-	color: #c5c4c4;
+	color: #c4c4c6;
 	background: transparent;
 	font-size: 16px;
 	border-radius: 2px;
@@ -45,28 +45,28 @@ window#waybar.hidden {
 
 #tags button.occupied {
 	transition: none;
-	color: #ff8c3b;
+	color: #9a4da0;
 	background: transparent;
 	font-size: 4px;
 }
 
 #tags button.focused {
-	color: #b18179;
-    border-top: 2px solid #b18179;
-    border-bottom: 2px solid #b18179;
+	color: #18389c;
+    border-top: 2px solid #18389c;
+    border-bottom: 2px solid #18389c;
 }
 
 #tags button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #fffefe;
-    border-color: #fffefe;
-    color: #fffefe;
+	color: #fdfdff;
+    border-color: #fdfdff;
+    color: #fdfdff;
 }
 
 #tags button.focused:hover {
-    color: #fffefe;
+    color: #fdfdff;
 }
 
 #tags button.urgent {
@@ -81,30 +81,30 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	padding-right: 5px;
 	border-radius: 10px;
-	background: #6b4331;
+	background: #3c5ebb;
 	transition: none;
 }
 
 #workspaces button {
 	transition: none;
-	color: #fffefe;
+	color: #fdfdff;
 	background: transparent;
 	border-radius: 2px;
 }
 
 #workspaces button.active {
-	color: #b18179;
+	color: #18389c;
 }
 
 #workspaces button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #fffefe;
+	color: #fdfdff;
 }
 
 #workspaces button.focused:hover {
-    color: #fffefe;
+    color: #fdfdff;
 }
 
 #workspaces button.urgent {
@@ -128,8 +128,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #ff8c3b;
+	color: #fdfdff;
+	background: #9a4da0;
 }
 
 #pulseaudio {
@@ -140,8 +140,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #7d6c69;
+	color: #fdfdff;
+	background: #1a2f71;
 }
 
 #battery {
@@ -152,13 +152,13 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #161320;
-	background: #B5E8E0;
+	color: #fdfdff;
+	background: #6f4572;
 }
 
 #battery.charging, #battery.plugged {
-	color: #161320;
-    background-color: #B5E8E0;
+	color: #fdfdff;
+    background-color: #6f4572;
 }
 
 #battery.critical:not(.charging) {
@@ -197,8 +197,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #c56f3b;
+	color: #fdfdff;
+	background: #6f4572;
 	/*background: #1A1826;*/
 }
 
@@ -210,8 +210,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #ff8c3b;
+	color: #fdfdff;
+	background: #9a4da0;
 }
 #cpu {
 	margin-top: 6px;
@@ -221,8 +221,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #c56f3b;
+	color: #fdfdff;
+	background: #6f4572;
 }
 
 #tray {
@@ -233,8 +233,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #6b4331;
+	color: #fdfdff;
+	background: #3c5ebb;
 }
 
 #custom-launcher {
@@ -245,8 +245,8 @@ window#waybar.hidden {
 	padding-right: 5px;
 	border-radius: 10px;
 	transition: none;
-    color: #b18179;
-    background: #302e2e;
+    color: #18389c;
+    background: #2a2c37;
 }
 
 #custom-power {
@@ -260,8 +260,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #b18179;
-	background: #302e2e;
+	color: #18389c;
+	background: #2a2c37;
 }
 
 #custom-wallpaper {
@@ -296,8 +296,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #6b4331;
+	color: #fdfdff;
+	background: #3c5ebb;
 }
 #custom-mpc {
 	margin-top: 6px;
@@ -307,6 +307,6 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #fffefe;
-	background: #7d6c69;
+	color: #fdfdff;
+	background: #1a2f71;
 }
