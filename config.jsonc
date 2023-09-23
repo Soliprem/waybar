@@ -6,7 +6,7 @@
     "cpu",
     "memory",
     "custom/mpc",
-    "wlr/workspaces"
+    "hyprland/workspaces"
   ],
   "modules-center": [
     "river/tags",
@@ -27,12 +27,12 @@
     "tooltip": false,
     "scroll-step": 5,
     "format": " {icon} {volume}%",
-    "format-muted": " 婢 {volume}%",
+    "format-muted": " 󰖁 {volume}%",
     "format-icons": {
       "default": [
-        "奄",
-        "奔",
-        "墳"
+        "",
+        "󰕾",
+        ""
       ]
     },
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
@@ -42,7 +42,7 @@
   "river/tags": {
     "num-tags": 9
   },
-  "wlr/workspaces": {
+  "hyprland/workspaces": {
     "format": "{icon}",
     "on-click": "activate",
     "all-outputs": true,
@@ -100,10 +100,10 @@
         " "
       ],
       "ethernet": [
-        " "
+        "󰈀 "
       ],
       "disconnected": [
-        "睊"
+        "󰖪"
       ],
     },
     "on-click": "foot -e nmtui",
@@ -153,7 +153,7 @@
   },
   "clock": {
     "format": "{: %I:%M %p }",
-    "format-alt": "{: %I:%M %p   %d/%m/%Y}"
+    "format-alt": "{: %I:%M %p   %d/%m/%Y}"
   },
   "cpu": {
     "interval": 15,
@@ -190,7 +190,7 @@
     "on-click-right": "killall rofi"
   },
   "custom/power": {
-    "format": "襤",
+    "format": "󰐥",
     /* "on-click": "bash ~/.config/rofi/leave/leave.sh", */
     /* "on-click":"rofi-powermenu" */
     "on-click": "~/.config/waybar/modules/dm-waybar-power"
